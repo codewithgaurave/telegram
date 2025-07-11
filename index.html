@@ -204,13 +204,21 @@
 
         .fire-emoji {
             font-size: 18px;
-            animation: flicker 2s infinite;
+            display: inline-block;
+  animation: flame 1s infinite alternate;
         }
 
-        @keyframes flicker {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
+        @keyframes flame {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 2px orange) drop-shadow(0 0 4px red);
+  }
+  100% {
+    transform: scale(1.2) rotate(5deg);
+    filter: drop-shadow(0 0 4px orange) drop-shadow(0 0 8px red);
+  }
+}
+
 
         /* Telegram section */
         .telegram-section {
@@ -433,8 +441,8 @@
             </div>
         </div>
         
-        <h1 class="title">Anna Reddy Analyst (2014) Original</h1>
-        <p class="subtitle glow">97% Accurate Predictions</p>
+        <h1 class="title">VARDAAN TOSS ANALYST (SINCE 2014)</h1>
+        <p class="subtitle glow" style="font-size: 25px;">97% Accurate Predictions</p>
         
         <div class="stats">
             <div class="stat-item">
@@ -442,6 +450,14 @@
                     IPL 2025 - 74/70 Pass Loading
                     <span class="fire-emoji">🔥</span>
                 </div>
+            </div>
+
+            <div class="telegram-buttons">
+                
+                <a href="https://t.me/+NPyfEeRqGBRkNWQ1" class="telegram-btn" target="_blank">
+                    <span class="telegram-icon">✈️</span>
+                    JOIN TELEGRAM
+                </a>
             </div>
             <div class="stat-item">
                 <div class="stat-text">
@@ -465,19 +481,15 @@
         </div>
         
         <div class="telegram-section">
-            <div class="telegram-title">
+            <div class="telegram-title" style="font-size: 20px;">
                 📱 BEST TELEGRAM CHANNEL FOR CRICKET TRADING 📱
             </div>
 
-                        <div class="telegram-title">
+                        <div class="telegram-title" style="font-size: 20px;">
                 📱 JOIN NOW FOR THE BEST SESSION + MATCH & TOSS 📱
             </div>
             
             <div class="telegram-buttons">
-                <a href="https://t.me/+NPyfEeRqGBRkNWQ1" class="telegram-btn" target="_blank">
-                    <span class="telegram-icon">✈️</span>
-                    JOIN TELEGRAM
-                </a>
                 
                 <a href="https://t.me/+NPyfEeRqGBRkNWQ1" class="telegram-btn" target="_blank">
                     <span class="telegram-icon">✈️</span>
